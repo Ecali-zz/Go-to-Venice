@@ -1,0 +1,78 @@
+:root {
+  --main-coloe: #0070c7;
+}
+
+.App {
+  text-align: center;
+}
+.header-info{
+  width: 50%;
+  float: right;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.button-header{
+  width: '30%' !important;
+  margin: '10px',
+}
+@media only screen and (max-width: 1000px) {
+  .header-info{
+    width: 100%;
+  float: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}
+.button-icon{
+  fill : '#d32a29';
+  height: 24;
+  vertical-align: 'bottom';
+  width: 24;
+}
+.menu-viaggi{
+  max-width: 200px;
+  min-width: 200px;
+  position: absolute;
+  top: 150px;
+  left: 30px;
+
+}
+.menu-richieste{
+  max-width: 600px;
+  min-width: 600px;
+  position: absolute;
+  top: 150px;
+  right: 30px;
+}
+.minifontsize{
+  font-size: 11px;
+}
+.semaforo{
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+.semaforo.verde{
+  background-color: chartreuse;
+  float: left;
+  position: absolute;
+  left: 0;
+  top: 15%;
+}
+.semaforo.giallo{
+  background-color: orange;
+  float: left;
+  position: absolute;
+  left: 35%;
+  top: 15%;
+}
+.semaforo.rosso{
+  background-color: red;
+  float: left;
+  position: absolute;
+  left: 70%;
+  top: 15%;
+}
+.semaforo.grigio{
+  background-color: grey;
+}

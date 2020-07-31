@@ -1,0 +1,7 @@
+$theme-colors: (
+    "primary": #0070c7,
+    "danger": rgb(255, 0, 0)
+);
+
+/* import bootstrap to set changes */
+@import "~bootstrap/scss/bootstrap";
